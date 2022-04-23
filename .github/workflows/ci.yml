@@ -25,4 +25,4 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: cd jsonrpc && npm run prepublishOnly
+    - run: cd jsonrpc && npm run install && npm run compile
