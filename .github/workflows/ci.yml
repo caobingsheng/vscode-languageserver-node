@@ -25,4 +25,4 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: node ./build/bin/all.js install && npm run rebuildAll
+    - run: npm install && npm run rebuildAll
