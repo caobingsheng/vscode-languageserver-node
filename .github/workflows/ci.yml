@@ -30,7 +30,7 @@ jobs:
       run: ls -la
     - uses: papeloto/action-zip@v1
       with:
-        files: ./jspnrpc
+        files: ./jsonrpc
         dest: release_lib.zip
     - name: Release
       uses: softprops/action-gh-release@v1
